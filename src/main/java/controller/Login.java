@@ -29,7 +29,7 @@ public class Login extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		request.setAttribute("res", "Login exitoso");
+		request.setAttribute("res", true);
 		RequestDispatcher rd= request.getRequestDispatcher("/login.jsp");
 		rd.forward(request, response);
 	}
