@@ -8,5 +8,6 @@
 </head>
 <body>
 <h1>hello world</h1>
+<a href="${pageContext.request.contextPath}/login">Ir a login</a>
 </body>
 </html>
