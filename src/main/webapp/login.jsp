@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
- login exitoso
+ Resultado login
+ <% String res= (String) request.getAttribute("res"); %>
+ <%=res %>
 </body>
 </html>
