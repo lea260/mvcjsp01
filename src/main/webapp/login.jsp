@@ -12,7 +12,6 @@
 boolean res = (boolean) request.getAttribute("res");
 if (res) {
 %>
-
 	<p>login exitoso</p>
 	<%
 	} else {
